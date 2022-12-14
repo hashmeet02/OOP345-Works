@@ -1,0 +1,4 @@
+﻿  carads.cpp
+D:\SENECA\SEM3\OOP 345\oop works\Workshop1\carads.cpp(63,40): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\SENECA\SEM3\OOP 345\oop works\Workshop1\carads.cpp(83,34): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Workshop1.vcxproj -> D:\SENECA\SEM3\OOP 345\oop works\Workshop1\x64\Debug\Workshop1.exe

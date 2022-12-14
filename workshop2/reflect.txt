@@ -1,0 +1,14 @@
+Reflection
+ ----------------------------------------------------------------------------------------------------------------------
+ Name:		Hashmeet Singh Saini
+ Seneca ID :	hsaini28
+ Student No.:	153070214
+ Date :		Septemeber 21th, 2022
+ 
+ I have done all the coding by myselfand only copied the code
+ that my professor provided to complete my project milestones.
+ -----------------------------------------------------------------------------------------------------------------------
+In this week’s workshop, I learned various new concepts like monitoring processing time through the use of a library called std::chrono, and implementing the rule of 5- copy constructor, copy assignment operator, move constructor and move assignment operator. I also strengthened previously learned concepts like retrieving data from a .csv file and counting the number of records in a file.
+1)	Move operators take a much shorter time than Copy operators because Copy involves various tasks like allocating new memory, copying and then deletion of previously allocated memory. On the other hand, move is simple as it allocates a bigger area and moves the data using rvalue which is much faster.
+2)	In the workshop I used a method to read the content of the .csv file in which first the file is read to count the number of newline characters in the file. Subtract 1 from this number and we get the length of the dynamic error to be constructed (subtracted 1 to compensate for the title row in the file). Then we read the file again to store the data in the array. One way to achieve this without rereading the file is overloading a += operator that takes array attribute as the left operand a reference of tennisMatch as the right operand. Its function is to resize the dynamic array and add the object to it. This way we can read 1 line from the file till ‘\n’ and then add it to the array.
+3)	system_clock is more like a wall clock. Whenever you access it you can tell what exactly the time is. On the other hand, steady_clock is more like a stopwatch which when accessed is used to identify how fast something (a process) is. System_clock is used when we want to find out the current time or any other time-related queries in the code. Steady_clock is used to find out and compare the speed of different functions and processes in the code like it was used in this workshop.
